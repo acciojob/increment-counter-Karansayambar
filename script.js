@@ -5,5 +5,5 @@ const para = document.getElementById("counter");
 let count = 0;
 btn.addEventListener('click' , ()=>{
 	alert(count);
-	para.innerText = ++count;
+	para.innerText = count++;
 })
